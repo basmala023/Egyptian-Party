@@ -1,0 +1,175 @@
+
+body{
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    
+   
+  
+}
+header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.layer{
+    background-color: rgba(230,130,131,.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+header .content{
+    margin-top: 20%;
+}
+header .content p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.sideBar{
+    display: flex;
+}
+.sideInner{
+    
+    background-color: #414658 !important;
+    position: fixed;
+    align-items: flex-start;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999999;
+    padding: 30px;
+  
+}
+.sideInner a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 400;
+    transition: color .5s;
+  
+  
+}
+.sideInner a:hover{
+    color:  #af6058;
+}
+
+ span {
+    cursor: pointer;
+   padding: 10px;
+   margin-left: 200px;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 43px;
+   
+}
+/* start section singers */
+
+#singers{
+    width: 50%;
+    margin: 5% auto;
+    cursor: pointer;
+    background-color: rgb(230,130,133);
+
+}
+#singers div{
+    display: none;
+    background-color:rgb(204,204,204);
+    font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   color: #333;
+}
+section h2{
+  color: #fff;
+}
+/* end section singers */
+/* start section count */
+#count{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 330px;
+    position: relative;
+}
+.layer-count{
+    background-color: rgba(230,130,133,.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#getting-started{
+    padding-left: 15px;
+    min-height: 1px;
+    font-size: 16px;
+   
+    
+}
+.temp{
+
+   
+    width: 75%;
+    padding: 50px;
+    border: 1px solid #FFF;
+    
+    
+}
+/* end section count */
+/* start section form */
+#form h3{
+    color: #444444;
+    font-size: 35px;
+    line-height: 39px;
+    font-weight: 700;
+    padding: 10px;
+}
+#form h2{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+#form p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 10px;
+
+}
+#form  ul li span{
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 10px;
+}
+.social ul li a i{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #1e1e1e;
+  
+}
+.social ul li{
+    display: inline-block;
+    border: 1px solid #333;
+}
+.social ul li a{
+    padding: 10px;
+      color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    
+}
+
+/* end section form */
+
